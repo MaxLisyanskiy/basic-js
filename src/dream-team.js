@@ -23,7 +23,6 @@ function createDreamTeam(members) {
     }
   })
 
-  console.log(sorted.sort().join(''));
   return sorted.sort().join('')
 }
 
