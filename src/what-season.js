@@ -11,6 +11,9 @@ const { NotImplementedError } = require('../extensions/index.js');
  * getSeason(new Date(2020, 02, 31)) => 'spring'
  * 
  */
+
+// ********** DONE **********
+
  function getSeason(date) {
 
   if(!date) return 'Unable to determine the time of year!'
@@ -30,8 +33,6 @@ const { NotImplementedError } = require('../extensions/index.js');
       }
   } else {
     throw Error('Invalid date!')
-    // return 'Invalid date!'
-    // return false
   }
 }
 

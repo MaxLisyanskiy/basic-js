@@ -11,6 +11,9 @@ const { NotImplementedError } = require('../extensions/index.js');
  * For n = 152, the output should be 52
  *
  */
+
+// ********** DONE **********
+
  function deleteDigit(number) {
 	const arr = String(number).split('')
 	let result = 0

@@ -12,6 +12,9 @@ const { NotImplementedError } = require('../extensions/index.js');
  * For 91, the result should be 1 (9 + 1 = 10, 1 + 0 = 1)
  *
  */
+
+// ********** DONE **********
+
 function getSumOfDigits(string) {
   let result = String(string).split('').reduce((acc, value) => acc + Number(value), 0)
 

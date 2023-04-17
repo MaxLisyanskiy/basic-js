@@ -10,6 +10,9 @@ const { NotImplementedError } = require("../extensions/index.js");
  * For aabbbc should return 2a3bc
  *
  */
+
+// ********** DONE **********
+
 function encodeLine(str) {
   if (str.length < 1) return "";
 

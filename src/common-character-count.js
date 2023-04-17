@@ -12,6 +12,8 @@ const { NotImplementedError } = require('../extensions/index.js');
  * Strings have 3 common characters - 2 "a"s and 1 "c".
  */
 
+// ********** DONE **********
+
  function getCommonCharacterCount(s1, s2) {
   let sum = 0
   let smallString = s1.length <= s2.length ? s1.split('') : s2.split('')
