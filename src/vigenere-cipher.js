@@ -26,6 +26,8 @@ class VigenereCipheringMachine {
 
   encrypt(message, key) {
     if(!message || !key) throw Error('Invalid date!')
+
+
   }
   decrypt(encryptedMessage, key) {
     if(!encryptedMessage || !key) throw Error('Invalid date!')
