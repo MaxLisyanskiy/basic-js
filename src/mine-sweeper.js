@@ -23,6 +23,9 @@ const { NotImplementedError } = require('../extensions/index.js');
  *  [1, 1, 1]
  * ]
  */
+
+// ********** DONE **********
+
 function minesweeper(matrix) {
   let result = []
 
